@@ -7,9 +7,9 @@ Ich benutze auch zum ersten Mal Git und es hat mir sehr geholfen.
 
 Dieses READ-ME wird laufend ergänzt, sobald ich genauer weiß, was hier alles rein soll.
 
+---------------------------------------------------------------------------------------------------------------------------------
 ##14/11/2019:
 
----------------------------------------------------------------------------------------------------------------------------------
 Wir haben uns auf 4 Seiten geeinigt und mit HTML eine Grundstruktur angelegt. 
 
  -> Werwolf_Startpage
