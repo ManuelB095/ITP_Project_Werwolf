@@ -1,0 +1,4 @@
+# Wichtig: Die Werwolf Seite enthält einen Fehler bei der Anzeige auf 'Mobile S'. 
+
+Am rechten Rand der Seite erscheint aus einem mir noch unerfindlichem Grund ein weißer Margin oder dergleichen. 
+Problematisch dabei ist, dass sich auch die Bootstrap-Row damit verschiebt und der "Hilfe" Button in der 12. Column nun ganz am Rand klebt.
