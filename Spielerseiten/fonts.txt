@@ -1,0 +1,4 @@
+# Hier werden unsere verwendeten Fonts gespeichert. 
+Beim Download bitte einfach einen Fonts Ordner mit allen in der zip enthaltenen Dateien auf gleicher Verzeichnishöhe speichern.
+
+Also z.b: Projektordner -> html/css/js/ etc. + fonts Ordner mit Inhalt der ZIP.
