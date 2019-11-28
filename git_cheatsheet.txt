@@ -1,0 +1,60 @@
+# Git-Cheat-Sheet für die wichtigsten Kommandos:
+
+0.  Einstieg und Crash-Kurs in Github ( 1. - 3.)
+    Kurzübersicht wichtigste Kommandos ( 4. )
+
+1. Wie bekomme ich das ITP-Werwolf Repository lokal auf meine Maschine?
+-> Rechtsklick in Ordner, wo das lokale Repository angelegt werden soll.
+-> Open Git Bash Here. 
+-> $ nicht miteingeben. Dient als Indikator, dass wir uns in der Konsole befinden.
+-> $ git clone https://github.com/ManuelB095/ITP_Project_Werwolf 
+-> Git kopiert das ganze Repository mitsamt Inhalt auf deinen Rechner.
+
+2. Wie erstelle ich ein neues ( eigenes ) Git Repository?
+-> Rechtsklick in Ordner, wo das lokale Repository angelegt werden soll.
+-> Open Git Bash Here. 
+-> $ nicht miteingeben. Dient als Indikator, dass wir uns in der Konsole befinden.
+-> $ git init
+-> $ git config global user.name 'DeinUsername'
+-> $ git config global user.email 'DeineEmail'
+
+3. Wie funktioniert der Git-Workflow?
+-> Nach Erstellen des Repository ( Schritt 1 ODER 2 ) können bestehende Files über 
+   bspw. VS Code editiert und hochgeladen werden.
+   In unserem Beispiel haben wir eine Textdatei namens myfile.txt verändert.
+   Der Workflow für die Versionierung funktioniert folgendermaßen:
+
+Schritt 1: 
+    $ git add myfile.txt
+    Der git add Befehl fügt die Textdatei in den "Cache" ein. 
+    Das bedeutet, wir haben Änderungen am File vorgenommen und sind bereit dieses 
+    zu "Committen"
+    $ git rm --cached myfile.txt entfernt die Datei wieder aus dem Cache.
+    Achtung: Ohne --cached wird myfile.txt aus dem Ordner entfernt. 
+                Ist das gewünscht, kann auch diese Veränderung committed werden.
+
+
+Schritt 2:
+    $ git commit -M "Kurze Bemerkungen zu den Veränderungen"
+    Die im Cache befindlichen Files ( myfile.txt) 
+    wird in das ( lokale !) Repository aufgenommen.
+
+4. Cheat-Sheet
+
+-> $git init // Neues Repository anlegen ( EINMALIG )
+-> $git clone url // Kopiere existierendes Repository auf lokalen Rechner.
+
+-> $git status // Statusabfrage, die über Cache und Committs Auskunft gibt.
+-> $git add . // Alles im aktuellen Ordner in den Cache.
+-> $git add file.txt // File in Cache laden.
+-> $git commit // Files über eine Commit-Textdatei mit einer Nachricht versehen.
+-> $git commit -m "Nachricht" // Nachricht direkt eingeben und Committen.
+-> $git rm --cached file.txt // Entfernt file aus dem Cache.
+-> $git rm -r --caches Ordner/ // Entfernt Ordner ( und alles darin ) aus dem Cache.
+-> $git rm file.txt // Entfernt File aus Ordner (noch nicht aus Repository).
+
+-> $git remote add origin https://github.com/Projektname/ // Remote Zugang ( nur mit Kontodaten ! )
+-> $git remote -v // Verifiziert den Remote-Zugang.
+-> $git push origin master
+
+-> $touch file.txt // Öffne oder erstelle file.txt.
