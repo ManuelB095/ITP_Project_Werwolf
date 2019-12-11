@@ -1,11 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+//import logo from './logo.svg';
+import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/main.css';
+import './css/fonts/stylesheet.css';
+import PlayerTable from "./components/PlayerTable.js";
+import WerwolfTable from "./components/WerwolfTable.js";
+import WerwolfHeader from "./components/WerwolfHeader.js";
+import Table from "./components/Table.js";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
+class App extends Component {
+  state = {
+    
+  };
+
+  render() {
+    console.log(this.state.todos)
+
+    return (
+      <div className="App">
+        <WerwolfHeader />
+        <WerwolfTable />
+        <PlayerTable />
+        <Table />
+
+        {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,9 +37,10 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-    </div>
-  );
+      </header> */}
+      </div>
+    );
+  }
 }
 
 export default App;

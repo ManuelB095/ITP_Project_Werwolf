@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14.11.2019, 14:25:33
+    Author     : mbern
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1em !important;
+}
+
+.site-header {
+    background-image: url("../pics/moon1.jpg"); 
+    background-position: center center;
+    border-radius: 0px;
+}
+
+.Werwolf-Title {
+    font-family: 'berry_rotundaregular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    color: whitesmoke;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+}
+
+.row {
+    padding: 0px;
+    margin: 0px;
+}
+
+#Role-Title {
+    padding-bottom: 0.4em;
+}
+
+.Spieler-Infos {
+    list-style-type: none;
+    font-size: 1em;
+    text-align: left;
+}
+
+#Hilfe-Toggle {
+    
+}
+
+
+
+
+thead tr:first-child th {
+    border-top: none;
+}
+
+
+#werwolf-list {
+    background-image: url("../pics/moon2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+    
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+}
+
+.opaque {
+    background: rgba(255,255,255,0.8);
+}
+
+#Werwolf-Table {
+    color: whitesmoke;
+}
+
+.table-hover tr:hover td {
+    color: red;
+}
+
+#dorfbewohner-list {
+    background-image: url("../pics/moon2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 5px;
+    
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+}
+
+#Dorfbewohner-Table {
+    color: whitesmoke;
+}
