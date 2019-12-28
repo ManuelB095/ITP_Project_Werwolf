@@ -1,21 +1,20 @@
 import React, { Component } from "react";
 //import logo from './logo.svg';
 import "./App.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './css/main.css';
-import './css/fonts/stylesheet.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./css/main.css";
+import "./css/fonts/stylesheet.css";
 import PlayerTable from "./components/PlayerTable.js";
 import WerwolfTable from "./components/WerwolfTable.js";
 import WerwolfHeader from "./components/WerwolfHeader.js";
 import Table from "./components/Table.js";
+import Footer from "./components/Footer.js";
 
 class App extends Component {
-  state = {
-    
-  };
+  state = {};
 
   render() {
-    console.log(this.state.todos)
+    console.log(this.state.todos);
 
     return (
       <div className="App">
@@ -23,6 +22,7 @@ class App extends Component {
         <WerwolfTable />
         <PlayerTable />
         <Table />
+        <Footer />
 
         {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
