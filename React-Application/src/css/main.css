@@ -111,5 +111,18 @@ thead tr:first-child th {
 
 #Footer {
   background-image: url("../pics/Darkwood1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   color: whitesmoke;
+  padding: 2.5%;
+}
+footer li {
+  border-left: solid white 1px;
+  padding: 0px 3% 0px 3%;
+  margin: 0 3% 0 3%;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+footer h4 {
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
