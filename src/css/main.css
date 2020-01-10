@@ -9,18 +9,127 @@ and open the template in the editor.
 */
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
-    font-size: 1em !important;
+  font-size: 1em !important;
+}
+
+a {
+  color: whitesmoke;
+}
+a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.site-header {
+  background-image: url("../pics/moon1.jpg");
+  background-position: center center;
+  border-radius: 0px;
+}
+
+.Werwolf-Title {
+  font-family: "berry_rotundaregular";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  color: whitesmoke;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.werwolf-font {
+  font-family: "berry_rotundaregular" !important; 
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+}
+
+.row {
+  padding: 0px;
+  margin: 0px;
+}
+
+#Role-Title {
+  padding-bottom: 0.4em;
+}
+
+.Spieler-Infos {
+  list-style-type: none;
+  font-size: 1em;
+  text-align: left;
+}
+
+#Hilfe-Toggle {
+}
+
+thead tr:first-child th {
+  border-top: none;
+}
+
+#werwolf-list {
+  background-image: url("../pics/moon2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 5px;
+
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+}
+
+.opaque {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+#Werwolf-Table {
+  color: whitesmoke;
+}
+
+.table-hover tr:hover td {
+  color: red;
+}
+
+#dorfbewohner-list {
+  background-image: url("../pics/moon2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 5px;
+
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+}
+
+#Dorfbewohner-Table {
+  color: whitesmoke;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+       background-image: url("../pics/sternenhimmel.jpg");
+       background-position: center;
+       background-size: cover;
 }
 
 .site-header {
     background-image: url("../pics/moon1.jpg"); 
     background-position: center center;
     border-radius: 0px;
+}
+.schrift{
+    color: whitesmoke;
 }
 
 .Werwolf-Title {
@@ -53,8 +162,8 @@ h1 {
 
 .Spieler-Infos {
     list-style-type: none;
-    font-size: 1em;
     text-align: left;
+    color: whitesmoke;
 }
 
 #Hilfe-Toggle {
@@ -70,12 +179,12 @@ thead tr:first-child th {
 
 
 #werwolf-list {
-    background-image: url("../pics/moon2.jpg");
+    background-image: url("../pics/werwolf.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border-radius: 5px;
-    
+    border-radius: 25px;
+    margin-top:2%;
     margin-left: 1.2em;
     margin-right: 1.2em;
 }
@@ -93,11 +202,11 @@ thead tr:first-child th {
 }
 
 #dorfbewohner-list {
-    background-image: url("../pics/moon2.jpg");
+    background-image: url("../pics/village.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border-radius: 5px;
+    border-radius: 25px;
     
     margin-left: 1.2em;
     margin-right: 1.2em;
@@ -105,4 +214,26 @@ thead tr:first-child th {
 
 #Dorfbewohner-Table {
     color: whitesmoke;
+}
+
+#Footer {
+  background-image: url("../pics/Darkwood1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: whitesmoke;
+  padding: 2.5%;
+}
+footer li {
+  border-left: solid white 1px;
+  padding: 0px 3% 0px 3%;
+  margin: 0 3% 0 3%;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+footer h4 {
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  font-family: "berry_rotundaregular";
+  font-weight: normal;
+  font-style: normal;
+  padding: 0 3% 0 3%;
 }

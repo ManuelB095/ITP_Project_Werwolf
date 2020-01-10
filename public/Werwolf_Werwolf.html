@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="de">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../src/css/fonts/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="../src/css/main.css">
+        <title>Werwolf</title>
+    </head>    
+
+    <body>
+        <header>
+            <div class="jumbotron text-center site-header">
+                <h1 class="Werwolf-Title">Werwolf</h1>
+                <img class="icon" src="../src/pics/icon2.png" alt="Werwolf-Icon">
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 " id="Role-Title">
+                    <h2 class="text-center schrift werwolf-font">Rolle "Werwolf"</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 ">
+                    <ul class="Spieler-Infos">
+                        <li>Spielername</li>
+                    <li>Token</li>
+                    </ul>
+                </div>
+                <!-----------------------------------------hier steht die Drop Down Box "Hilfe" mit den "Modal" Buttons--------------------------------------->
+                <div class="offset-7 col-2 ">
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-dark dropdown-toggle werwolf-font" id="Hilfe-Toggle" data-toggle="dropdown">
+                            Hilfe
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right"> <!--Damit das menü rechtsbündig droppt nutze "dropdown-menu-right"-->
+                            <button type="button" class="btn btn-secondary dropdown-item" data-toggle="modal" data-target="#Allg">
+                                Allgemeine Infos
+                            </button>
+                            <button type="button" class="btn btn-secondary dropdown-item" data-toggle="modal" data-target="#Dorfb">
+                                Dorfbewohner
+                            </button>
+                            <button type="button" class="btn btn-secondary dropdown-item" data-toggle="modal" data-target="#Werwolf">
+                                Werwolf
+                            </button>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+        <!-----------------Hier wird der Inhalt der "Modal" Buttons im Dropdown Menü Hilfe erstellt------------------------------------->
+
+        <!--------Inhalt von Allgemein------------>
+        <div class="modal" id="Allg">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Allgemeine Infos</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        Hier steht ein Text zu den allgemienen Infos über das Spiel
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------Inhalt von Dorfbewohner------>
+        <div class="modal" id="Dorfb">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Dorfbewohner</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        Hier stehen Infos zum Dorfbewohner
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------Inhalt von Werwolf------>
+        <div class="modal" id="Werwolf">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Werwolf</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        Hier stehen Infos zum Werwolf
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="jumbotron opaque" id="werwolf-list">
+            <div class="container" align="center">
+
+                <!--Lister der anderen Werwölft-->
+                <table class="text-center center table table-striped table-hover" id="Werwolf-Table">
+                    <!--                    <tr>
+                                            <td><h3>Werwölfe</h3></td>    
+                                        </tr>-->
+                    <thead class="">
+                        <tr>
+                            <th scope="col"><h3 class="werwolf-font">Werwölfe</h3></th>                    
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Gunter</td>    
+                    </tr>
+                    <tr>
+                        <td>Linda</td>    
+                    </tr>
+                    <tr>
+                        <td>Lukas</td>    
+                    </tr>
+                </table>
+                <br>
+            </div>
+        </div>
+
+        <div class="jumbotron opaque" id="dorfbewohner-list">
+            <div class="container" align="center">
+
+                <!--Lister aller Spieler ( Dorfbewohner )-->
+                <table class="text-center center table table-striped table-hover" id="Dorfbewohner-Table">
+                    <!--                    <tr>
+                                            <td><h3>Werwölfe</h3></td>    
+                                        </tr>-->
+                    <thead class="">
+                        <tr>
+                            <th scope="col"><h3 class="werwolf-font">Dorfbewohner</h3 c></th>                    
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Gunter</td>    
+                    </tr>
+                    <tr>
+                        <td>Linda</td>    
+                    </tr>
+                    <tr>
+                        <td>Lukas</td>    
+                    </tr>
+                    <tr>
+                        <td>Hauke</td>    
+                    </tr>
+                    <tr>
+                        <td>Wilfred</td>    
+                    </tr>
+                </table>
+                <br>
+            </div>
+            <div class="row text-center">                
+                <div class="offset-sm-4 col-sm-4"> <button class="btn btn-dark col werwolf-font">Abstimmung</button></div>
+                
+            </div>
+        </div>
+
+        <footer id="Footer">
+            <div class="container">
+                <div class="row">
+                <div class="hidden-xs col-sm-6 col-md-3 text-center">
+                    <img class="icon" src="../src/pics/icon2.png" alt="Werwolf-Icon" />
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                    <h4>Soziale Netze</h4>
+                    <ul class="list-unstyled d-flex flex-wrap flex-xs-row flex-sm-column">
+                    <li>
+                        <a href="https://www.facebook.com"> Facebook</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/?lang=de"> Twitter</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/?hl=de"> Instagram</a>
+                    </li>
+                    </ul>
+                </div>
+    
+                <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                    <h4> Terms of Use</h4>
+                    <ul class="list-unstyled d-flex flex-wrap flex-xs-row flex-sm-column">
+                    <li> Copyright</li>
+                    <li> Privacy Policy</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 text-center">
+                    <h4>About</h4>
+                    <ul class="list-unstyled d-flex flex-wrap flex-xs-row flex-sm-column">
+                    <li> FH Technikum Wien</li>
+                    <li> About Us</li>
+                    <li> Projekt Werwolf</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            </footer>
+
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    </body>
