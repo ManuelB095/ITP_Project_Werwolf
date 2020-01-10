@@ -9,100 +9,107 @@ and open the template in the editor.
 */
 
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
-    font-size: 1em !important;
+  font-size: 1em !important;
+}
+
+a {
+  color: whitesmoke;
+}
+a:hover {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .site-header {
-    background-image: url("../pics/moon1.jpg"); 
-    background-position: center center;
-    border-radius: 0px;
+  background-image: url("../pics/moon1.jpg");
+  background-position: center center;
+  border-radius: 0px;
 }
 
 .Werwolf-Title {
-    font-family: 'berry_rotundaregular';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 32px;
-    text-transform: uppercase;
-    letter-spacing: 0.4em;
-    color: whitesmoke;
-    padding-top: 0em;
-    padding-bottom: 0em;
-    padding-left: 0;
-    padding-right: 0;
+  font-family: "berry_rotundaregular";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  color: whitesmoke;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .icon {
-    height: 100px;
-    width: 100px;
+  height: 100px;
+  width: 100px;
 }
 
 .row {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 #Role-Title {
-    padding-bottom: 0.4em;
+  padding-bottom: 0.4em;
 }
 
 .Spieler-Infos {
-    list-style-type: none;
-    font-size: 1em;
-    text-align: left;
+  list-style-type: none;
+  font-size: 1em;
+  text-align: left;
 }
 
 #Hilfe-Toggle {
-    
 }
-
-
-
 
 thead tr:first-child th {
-    border-top: none;
+  border-top: none;
 }
 
-
 #werwolf-list {
-    background-image: url("../pics/moon2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    border-radius: 5px;
-    
-    margin-left: 1.2em;
-    margin-right: 1.2em;
+  background-image: url("../pics/moon2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 5px;
+
+  margin-left: 1.2em;
+  margin-right: 1.2em;
 }
 
 .opaque {
-    background: rgba(255,255,255,0.8);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 #Werwolf-Table {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 .table-hover tr:hover td {
-    color: red;
+  color: red;
 }
 
 #dorfbewohner-list {
-    background-image: url("../pics/moon2.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    border-radius: 5px;
-    
-    margin-left: 1.2em;
-    margin-right: 1.2em;
+  background-image: url("../pics/moon2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 5px;
+
+  margin-left: 1.2em;
+  margin-right: 1.2em;
 }
 
 #Dorfbewohner-Table {
-    color: whitesmoke;
+  color: whitesmoke;
+}
+
+#Footer {
+  background-image: url("../pics/Darkwood1.jpeg");
+  color: whitesmoke;
 }
