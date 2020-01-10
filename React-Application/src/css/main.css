@@ -125,4 +125,8 @@ footer li {
 }
 footer h4 {
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  font-family: "berry_rotundaregular";
+  font-weight: normal;
+  font-style: normal;
+  padding: 0 3% 0 3%;
 }
